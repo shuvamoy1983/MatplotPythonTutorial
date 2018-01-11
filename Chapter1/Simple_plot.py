@@ -16,9 +16,10 @@ print(s)
 fig, ax = plt.subplots()
 ax.plot(t,s)
 
+
+## set is used for labelling x and y axis , also for titling
 ax.set(xlabel='time (s)', ylabel='voltage (mV)',
        title='About as simple as it gets, folks')
 ax.grid()
-
 fig.savefig("test.png")
 plt.show()
