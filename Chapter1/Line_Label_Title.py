@@ -12,7 +12,7 @@ for i in range(4):
     x1.append(i)
     y1.append(np.sin(i)/2)
 
-###label is used to identify the graph details within plot
+###label is used to identify the graph details within plot.
 plt.plot(x,y,label="First_Line")
 plt.plot(x1,y1,label="Second_Line")
 plt.xlabel('X-Axis_Val')
